@@ -13,7 +13,7 @@ document.getElementById('c1-donate').addEventListener('click', function (event) 
     }
 
     if (inputMoneyNumber <= 0) {
-        alert("Donation amount must be greater than zero.");
+        alert("Insufficient balance.");
         return;
     }
 
@@ -51,7 +51,7 @@ document.getElementById('c2-donate').addEventListener('click', function (event) 
     }
 
     if (inputMoneyTwoNumber <= 0) {
-        alert("Donation amount must be greater than zero.");
+        alert("Donation amount  zero.");
         return;
     }
 
@@ -89,7 +89,7 @@ document.getElementById('c3-donate').addEventListener('click', function (event) 
     }
 
     if (inputMoneyThreeNumber <= 0) {
-        alert("Donation amount must be greater than zero.");
+        alert("Donation amount  zero.");
         return;
     }
 
